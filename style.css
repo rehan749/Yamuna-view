@@ -27,7 +27,7 @@ img .icimg {
 }
 .navbar {
     /* background-color: #1a3d59 !important; */
-   background-color:  rgb(255 255 255) !important;
+   background-color: rgb(240 241 244 / 95%) !important;
     z-index: 7;
     position: fixed;
     top: 0px;

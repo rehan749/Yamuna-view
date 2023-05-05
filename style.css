@@ -97,10 +97,7 @@ img .icimg {
 .enquery-form .form-control{
     border-radius: 0px;
  }
-.overview-section .col-md-12 p{
-    font-size: 20px;
-    text-align: justify;
-}
+
 .overview-section .col-md-12 ul li{
     font-size: 20px;
     line-height: 40px;
@@ -130,6 +127,7 @@ img .icimg {
    }
    .overview-section p{
        letter-spacing: 1px;
+       font-size: 14px;
    }
 
    .price-list h1{
@@ -150,7 +148,7 @@ img .icimg {
         }
 .feature-section .ameniti-box img{
     height: 80px;
-    width: 100px;
+    width: 80px;
 }
    .Gallary .col-md-4{
        margin: 10px 0px;
@@ -178,9 +176,10 @@ img .icimg {
     
    }
    .location-map .right ul li{
-    line-height: 40px;
+    line-height: 45px;
     color: rgb(255, 255, 255);
     word-spacing: 1px;
+    font-size: 18px;
    }
    .contact-us .col-md-12 form input,textarea{
     width: 100%;
@@ -244,6 +243,7 @@ img .icimg {
         top: 0px;
         right: 0px;
         background-color: #adb5bd;
+        margin: 0px 15px;
     }
     .overview-section .global-heading{
         font-size: 20px;
@@ -259,6 +259,13 @@ img .icimg {
     .price-list img{
         height: auto;
         width: 80%;
+    }
+    .overview-section p {
+        letter-spacing: 1px;
+        font-size: 13px;
+    }
+    .banner-text{
+        display: none;
     }
     }
 
@@ -297,3 +304,9 @@ img .icimg {
         margin: 15px 5px;
     }
 }
+
+@media (max-width: 400px){
+.col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+}}

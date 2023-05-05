@@ -27,9 +27,9 @@ img .icimg {
 }
 .navbar {
     /* background-color: #1a3d59 !important; */
-    background-color: rgb(240 241 244 / 95%)  !important;
+   background-color:  rgba(0, 0, 0, 0.125) !important;
     z-index: 7;
-    /* position: fixed; */
+    position: fixed;
     top: 0px;
     width: 100%;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
@@ -37,7 +37,7 @@ img .icimg {
 }
 .navbar .navbar-nav .nav-item .nav-link
 {
-    color: #000000;
+    color: #fcfcfc;
     text-decoration: none;
     /* font-size: 18px; */
     margin: 20px 10px;
@@ -71,6 +71,15 @@ img .icimg {
     position: relative;
    
 }
+ .banner-text{
+    position: absolute;
+    left: 40px;
+    bottom: 5px;
+    background: black;
+    color: #fff;
+    padding: 15px 40px;
+}
+
 .enquery-form{
     position: absolute;
     bottom: 10px;
@@ -135,18 +144,14 @@ img .icimg {
     margin: auto;
     border: 1px solid grey;
    }
-   .feature-section .col-md-2{
-    margin: 10px 0px;
-    text-align: center;
+        .feature-section .ameniti-box{
+            margin: 10px 0px;
+            text-align: center;
+        }
+.feature-section .ameniti-box img{
+    height: 80px;
+    width: 100px;
 }
-.feature-section .col-md-2 img{
-       border: 2px solid black;
-       border-radius: 10px;
-       height: 200px;
-       width: 200px;
-
-   }
-
    .Gallary .col-md-4{
        margin: 10px 0px;
        
